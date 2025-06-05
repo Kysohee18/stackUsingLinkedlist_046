@@ -50,7 +50,10 @@ bool isEmpty()
     void peek()
     {
         if (isEmpty())
+        {
+            cout <<"list is empty." << endl;
         
+}
 
 
 
