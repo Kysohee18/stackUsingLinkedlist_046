@@ -47,7 +47,10 @@ bool isEmpty()
     cout << " popped value:  " << top->data << endl;
     top = top->next; // update the top pointer to the next node
     }
-
+    void peek()
+    {
+        if (isEmpty())
+        
 
 
 
