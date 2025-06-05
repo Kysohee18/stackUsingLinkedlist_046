@@ -52,8 +52,12 @@ bool isEmpty()
         if (isEmpty())
         {
             cout <<"list is empty." << endl;
-        
-}
+    }
+        else
+        {
+            Node * current =top;
+            while ( current != NULL)
+           
 
 
 
