@@ -43,7 +43,14 @@ bool isEmpty()
     if(isEmpty()) {
         cout << " stack is empty. " <<endl;
         return; // of the stack is empty, print message and return
-    
+    }
+    cout << " popped value:  " << top->data << endl;
+    top = top->next; // update the top pointer to the next node
+    }
+
+
+
+
     
  
 
