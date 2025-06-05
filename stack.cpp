@@ -60,7 +60,18 @@ bool isEmpty()
             {
                 cout << current->data <<"" << endl;
                 current = current->next;
-            }
+            }cout << endl;
+        }
+    }
+
+
+};
+
+int main()
+{
+   
+
+
             
 
     
