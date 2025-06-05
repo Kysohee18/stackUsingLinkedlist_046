@@ -73,7 +73,10 @@ int main()
     int value;
 
     while (choice != 4)
-    
+    {
+     cout << "1. push\n";
+      
+}
    
 
 
