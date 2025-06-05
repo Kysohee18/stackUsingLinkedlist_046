@@ -90,7 +90,24 @@ int main()
             case 2:
             stack.pop(); //pop the tommost element from the stack
             break;
-           
+            case 3:
+                stack.peek();
+                break;
+
+            case 4:
+                cout << " existing program" << endl;
+                break;
+                default :
+                cout << "invalid choice try again." << endl;
+                break;
+        }
+        cout << endl;
+        
+    
+
+    }
+    return 0; 
+}     
    
 
 
