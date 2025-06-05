@@ -38,7 +38,12 @@ bool isEmpty()
     {
         return top == NULL; // return true if the pointer is null , indicating an empty stack
     }
-
+// pop operation : remoe the tompost element from the stack
+    void pop () {
+    if(isEmpty()) {
+        cout << " stack is empty. " <<endl;
+        return; // of the stack is empty, print message and return
+    
     
  
 
